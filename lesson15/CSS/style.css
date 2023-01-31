@@ -1,0 +1,12 @@
+.text--bold{
+  color: blue;
+  font-weight: bold;
+}
+
+.parrent>.child{
+  color: blueviolet;
+}
+
+a[href="#blog"]  {
+  color: yellowgreen; 
+}
