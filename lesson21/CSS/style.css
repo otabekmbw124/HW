@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Antipasto Pro";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Antipasto Pro Regular"),
+        local("Antipasto Pro-Regular"),
+        url(../Fonts/AntipastoPro-Regular.woff2) format('woff2'),
+        url(../Fonts/AntipastoPro-Regular.woff) format('woff'),
+        url(../Fonts/AntipastoPro-Regular.eot) format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Antipasto Pro";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Antipasto Pro Extra Bold"),
+        local("Antipasto Pro-ExtraBold"),
+        url(../Fonts/AntipastoPro-ExtraBold.woff2) format('woff2'),
+        url(../Fonts/AntipastoPro-ExtraBold.woff) format('woff'),
+        url(../Fonts/AntipastoPro-ExtraBold.eot) format('eot');
+  font-display: swap;
+}
+
+p {
+  font-family: "Antipasto Pro";
+  font-weight: 800;
+}

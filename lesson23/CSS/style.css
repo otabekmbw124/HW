@@ -1,0 +1,36 @@
+/* .wrapper  {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block  {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(80, 90, 90);
+  border-radius: 5px;
+} 
+
+.block  {
+  background: url(../images/rock.jpg) no-repeat center, linear-gradient(#281, #100cff 49%);
+} */
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+.wrapper  {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block  {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(80, 90, 90);
+  border-radius: 5px;
+} 
+
+.block  {
+  background: url(../images/rock.jpg) -15% -50%/ contain no-repeat fixed;
+  overflow: auto;
+}
+
+p {
+  padding-left: 76%;
+}
