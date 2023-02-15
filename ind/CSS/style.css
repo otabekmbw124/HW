@@ -56,8 +56,19 @@ li  {
   height: 100%;
 }
 
-.ul_section{
-  padding-top: 30vh;
-  margin: 0 auto;
+.ul_section {
+  padding: 0 0 0 2.08vw;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px #d50082;
+  padding-top: 0vh;
+  margin: 30vh auto;
   width: 50%;
+  height: 310px;
+  overflow: scroll;
+}
+
+.ul_section::-webkit-scrollbar {
+  width: 0px;    
+  height: 0px;
 }
