@@ -1,0 +1,7 @@
+.block{
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  margin: 25% 0 25% 45%;
+  transform: skew(30deg) translate(0.7vw);
+}
