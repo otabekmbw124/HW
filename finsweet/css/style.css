@@ -1,125 +1,191 @@
 html, body{
-  font-family: 'manrope', 'san-serif';
+  font-family: 'Manrope', 'san-serif';
 }
-
 
 .wrapper {
   min-height: 100%;
   width: 100%;
   overflow: hidden;
 }
-.header {
-  height: 100vh;
-  flex-direction: column;
-}
-.header__top {
-}
-.container {
-  max-width: 1260px;
+
+.container{
+  max-width: 1310px;
+  padding: 0 15px;
   margin: 0 auto;
-  height: 100%;
 }
+/* ---------------------------------------------------------------- */
+.header {
+  
+}
+
+.header__top {
+
+}
+
 .header__top-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90px;
-  max-width: 1320px;
-  padding: 20px 0;
-  overflow: hidden;
+  padding: 18px 0 16px;
 }
-.header__logo {
-  margin-right: 475px;
+
+.header__top-logo {
+
 }
-.logo {
+
+.header__top-nav {
+  margin-left: auto;
 }
-.header__nav {
-  margin-right: ;
-}
+
 .header__nav-list {
   display: flex;
 }
+
 .header__nav-item {
   margin-right: 40px;
 }
-.header__nav-item:last-child {
-  margin-right: 32px;
+
+.header__nav-item:last-child{
+  margin-right: 0;
 }
+
 .header__nav-link {
+  font-weight: 600;
+  line-height: 28px;
+  color: #1E1B1B;
   white-space: nowrap;
-}
-.header__nav-lineicon{
-  margin-right: 32px;
-}
-.header__button-box {
-  white-space: nowrap;
-}
-.header__button-tell {
-  flex-direction: column;
-  margin-right: 14px;
-}
-.header__button-road {
-}
-.header__button-nomber {
-}
-.header__body {
-  position: relative;
-}
-.header__body-inner {
-  position: absolute;
-}
-.header__main {
-}
-.header__content {
-  position: relative;
   
 }
-.header__title {
+.header__nav-link:hover{
+  color: #FF6433;
+  transition: all .3s;
+}
+
+.header__line{
+  display: block;
+  margin: 0 32px;
+}
+
+.header__top-info {
+  display: inline-block;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+  padding-left: 54px;
+
+}
+
+.header__top-info::before{
+  content: "";
+  position: absolute;
+  background: url(/images/icons/tell.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: block;
+}
+
+.header__info-text-1 {
+  font-weight: 500;
+  line-height: 24px;
+  color: #1E1B1B;
+  opacity: 0.7;
+}
+
+.header__info-text-2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  color: #1E1B1B;
+}
+
+.header__body {
+}
+.container {
+}
+.header__body-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 135px;
+}
+.header__body-content {
+  margin-right: 55px;
+}
+.title {
   font-weight: 800;
-  font-size: 64px;
+  font-size: 64px;    
   line-height: 84px;
   letter-spacing: -0.03em;
   color: #1E1B1B;
-  position: absolute;
-  min-width: 624px;
-  min-height: 252px;
-  padding: 162px 55px 0px 0px;
+  margin-bottom: 32px;
 }
-.header__button {
+.header__body-buttons {
+  display: flex;
+  align-items: center;
+} 
+.btn__book {
+  background: #FF6433;
+  border-radius: 12px;
+  padding: 16px 40px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  color: #ffff;
+  margin-right: 33px;
+  transition: all .3s;
 }
-.button {
+
+.btn__book:hover{
+  transform: scale(1.06);
 }
-.header__play {
+.btn__play {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 16px;
+}
+.btn__play-image {
+  display: inline-flex;
+  align-items: center;
+}
+.btn__play-image svg {
+  border-radius: 50%;
 
 }
-.heaader__content-subtitle {
-  position: absolute;
-  top: 490px;
-  width: 375px;
+.btn__play-image:hover svg {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.12);
+  transition: all .3s;
+} 
+.btn__play-text {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
-.header__content-subtitleblock1{
-  position: absolute;
-  left: 90px;
-  bottom: 10px;
+.header__open {
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+.cklock {
+  margin-right: 13px ;
+}
+.header__open-text {
+}
+.header__open-text1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #939191;
 }
-.header__content-subtitleblock2{
-  position: absolute;
-  top: 25px;
-  left: 90px;
+.header__open-text2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  color: #1E1B1B; 
 }
-.clock {
-}
-.header__content-block {
-  position: relative;
-  top: 0px;
-}
-.header__block-image {
-  position: absolute;
-  left: 650px;
-}
-.header__img {
+.header__body-img {
 }
