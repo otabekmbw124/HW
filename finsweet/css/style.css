@@ -466,3 +466,46 @@ html, body{
   color: #1E1B1B;
   opacity: 0.7;
 }
+
+/* ---------------------------------------------------- */
+
+.brands {
+  background: #E2E6E9;
+}
+
+.brands__title {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 76px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  margin-bottom: 92px;
+  padding-top: 176px;
+}
+
+.brands__list-logo {
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+.brands__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 145px;
+  margin-right: 112px;
+}
+
+.brands__list-item:nth-child(5){
+  margin-right: 0;
+}
+
+.brands__list-item--2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 112px;
+}
+.brands__list-item--2:last-child{
+  margin-right: 0;
+}
