@@ -25,10 +25,6 @@ html, body{
   padding: 18px 0 16px;
 }
 
-.header__top-logo {
-
-}
-
 .header__top-nav {
   margin-left: auto;
 }
@@ -74,7 +70,7 @@ html, body{
 .header__top-info::before{
   content: "";
   position: absolute;
-  background: url(images/icons/tell.svg) no-repeat;
+  background: url(../images/icons/tell.svg) no-repeat;
   width: 40px;
   height: 40px;
   top: 50%;
@@ -256,9 +252,14 @@ html, body{
   transition: all .3s;
 }
 
-.services_item svg  {
+.services_item svg path {
   fill: black;
 }
+
+.services_item:hover svg path {
+  fill: white;
+}
+
 
 .services_item:hover {
   background-color: #FF6433;
@@ -280,10 +281,15 @@ html, body{
   background: #FF6433;
   color: #fff;
 }
+.learn__left:hover svg path{
+  fill: #fff;
+}
+.learn__left svg path{
+  fill: black;
+  transition: all .3s;
+}
 .learn__text {
   margin-right: 5px;
-}
-.learn__icon {
 }
 
 
@@ -316,6 +322,7 @@ html, body{
 }
 
 .button__heading{
+  display: inline-block;
   background: #FF6433;
   border-radius: 12px;
   padding: 16px 40px;
@@ -386,16 +393,14 @@ html, body{
 /* ---------------------------------------------- */
 
 .get {
-  background: url(../images/car-image.jpg) no-repeat;
+  background: url(/images/car-image.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   min-width: 1920px;
   min-height: 502px;
   margin-top: 134px;
 }
-.container {
 
-}
 .get__inner {
   position: relative;
 }
@@ -437,9 +442,6 @@ html, body{
 /* ------------------------------------------------------ */
 
 
-.info {
-  
-}
 .info__list {
   display: flex;
   justify-content: space-between;
@@ -458,6 +460,9 @@ html, body{
   letter-spacing: -0.03em;
   color: #661CE7;
 }
+.info__number:hover {
+  color:#FF6433
+}
 .info__text {
   font-weight: 600;
   font-size: 24px;
@@ -465,6 +470,7 @@ html, body{
   letter-spacing: -0.03em;
   color: #1E1B1B;
   opacity: 0.7;
+  margin-bottom: 48px;
 }
 
 /* ---------------------------------------------------- */
@@ -486,14 +492,19 @@ html, body{
 .brands__list-logo {
   display: grid;
   grid-template: 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
-  align-items: center;
 }
 .brands__list-item {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 145px;
-  margin-right: 112px;
+  width: 150px;
+}
+.brands__list-test{
+  width: 200px;
+}
+.brands__list-item svg path:hover {
+  fill: #FF6433;
 }
 
 .brands__list-item:nth-child(5){
@@ -504,8 +515,103 @@ html, body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 112px;
 }
 .brands__list-item--2:last-child{
   margin-right: 0;
+}
+
+/* ------------------------------------------------- */
+
+
+.directions {
+}
+.container {
+}
+.directions__inner {
+}
+.directions__heading {
+}
+.heading {
+}
+.directions__title {
+  font-weight: 800;
+font-size: 58px;
+line-height: 76px;
+letter-spacing: -0.03em;
+color: #1E1B1B;
+padding-top: 148px;
+padding-bottom: 47px;
+}
+.directions__body {
+}
+.directions__filter-box{
+  display: flex;
+}
+.directions__filter-item {
+  margin-right: 30px;
+  padding-bottom: 46px;
+}
+.directions__filter-item:last-child {
+  margin-right: 0px;
+}
+.directions__filter-btn {
+  display: block;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+  transition: all .3s;
+}
+.directions__filter-btn--active {
+  background-color: transparent;
+  color: #FF6433;
+}
+/* .directions__filter-btn:focus {
+  color: #FF6433;
+  transition: all .3s;
+} */
+.directions__list {
+  display: grid;
+  grid-template: repeat(2,auto)/ repeat(3, 1fr);
+  gap: 64px 32px;
+}
+.directions__list-item {
+}
+.directions__list-link {
+  display: block;
+  overflow: hidden;
+}
+.directions__image-box {
+  margin-bottom: 24px;
+}
+.directions__image-box img {
+  width: 100%;
+  height: 100%;
+}
+.directions__link-content {
+}
+.directions__link-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #939191;
+  padding-bottom: 16px;
+}
+.directions__link-title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  color: #1E1B1B;
+  padding-bottom: 16px;
+}
+.directions__link-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+}
+.directions__link {
 }
