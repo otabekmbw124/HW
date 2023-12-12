@@ -1,0 +1,221 @@
+body{
+    font-family: 'GTA Russian';
+    font-size: 26px;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.header{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.header video{
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: -20px;
+}
+.header__inner {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffae00;
+}
+.logo img{
+    width: auto;
+    height: 7vh;
+}
+.nav {
+}
+.nav__list {
+    display: flex;
+    gap: 30px;
+}
+.nav__item {
+
+}
+.nav__link {
+}
+.header__buy {
+}
+.main {
+    margin-bottom: 310px;
+}
+
+.mail__inner {
+    
+}
+
+
+.main__title{
+    margin: 20vh 15vw 0 15vw;
+}
+
+.main__title h1 {
+    text-align: center;
+    font-size: 120px;
+    text-shadow: 
+		-0   -1px 0   #FFAE00,
+		 0   -1px 0   #FFAE00,
+		-0    1px 0   #FFAE00,
+		 0    1px 0   #FFAE00,
+		-1px -0   0   #FFAE00,
+		 1px -0   0   #FFAE00,
+		-1px  0   0   #FFAE00,
+		 1px  0   0   #FFAE00,
+		-1px -1px 0   #FFAE00,
+		 1px -1px 0   #FFAE00,
+		-1px  1px 0   #FFAE00,
+		 1px  1px 0   #FFAE00,
+		-1px -1px 0   #FFAE00,
+		 1px -1px 0   #FFAE00,
+		-1px  1px 0   #FFAE00,
+		 1px  1px 0   #FFAE00;
+}
+
+.main__title span{
+    color: #ffae00;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+
+.main__subtitle{
+    margin: 0 15vw 0 15vw;
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    text-shadow: 
+		-0   -1px 0   #FFAE00,
+		 0   -1px 0   #FFAE00,
+		-0    1px 0   #FFAE00,
+		 0    1px 0   #FFAE00,
+		-1px -0   0   #FFAE00,
+		 1px -0   0   #FFAE00,
+		-1px  0   0   #FFAE00,
+		 1px  0   0   #FFAE00,
+		-1px -1px 0   #FFAE00,
+		 1px -1px 0   #FFAE00,
+		-1px  1px 0   #FFAE00,
+		 1px  1px 0   #FFAE00,
+		-1px -1px 0   #FFAE00,
+		 1px -1px 0   #FFAE00,
+		-1px  1px 0   #FFAE00,
+		 1px  1px 0   #FFAE00;
+}
+
+.main__subtitle-item{
+    padding-bottom: 10px;
+}
+/* ====================================== */
+
+.title__sect {
+    background: url('../bck.jpg') 50% 5% / cover no-repeat fixed;
+    margin-bottom:;
+}
+.container {
+}
+.sect__inner {
+    
+}
+.main__subtitle {
+    padding-top: 15vh;
+    height: 80vh;
+}
+.main__subtitle-list {
+}
+.main__subtitle-item {
+    padding-top: 20px;
+}
+
+
+
+
+/* ==================================== */
+.games__section {
+    background: url(../bck2.jpg) 35% 10% / cover no-repeat fixed;
+}
+.games__inner {
+}
+.games__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.game-1 {
+}
+.image {
+    width: 300px;
+    color: #FFAE00;
+    font-size: 60px;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+
+.image img{
+    width: 300px;
+    height: ;
+}
+.price {
+    text-align: start;
+    font-size: 32px;
+    color: #0c8020;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+.game-2 {
+}
+.game-3 {
+}
